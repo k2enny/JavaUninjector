@@ -108,3 +108,13 @@ public class Main {
         return buffer.toByteArray();
     }
 }
+
+
+
+//☆☆☆☆☆☆☆☆☆☆☆☆
+//
+//if (WhoMade.is("k2enny")) {
+//  System.out.println("k2ennyyyy");
+//}
+//
+//☆☆☆☆☆☆☆☆☆☆☆☆
