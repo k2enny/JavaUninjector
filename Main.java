@@ -61,7 +61,7 @@ public class Main {
         final ClassReader cr = new ClassReader(classfileBuffer);
         final ClassWriter cw = new ClassWriter(cr, ClassWriter.COMPUTE_MAXS);
 
-        final ClassVisitor cv = new ClassVisitor(Opcodes.ASM7, cw) {
+        final ClassVisitor cv = new ClassVisitor(Opcodes.ASM9, cw) {
             @Override
             public MethodVisitor visitMethod(int access, String name, String descriptor, String signature, String[] exceptions) {
                 MethodVisitor mv = super.visitMethod(access, name, descriptor, signature, exceptions);
